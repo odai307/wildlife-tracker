@@ -73,4 +73,3 @@ training_data/
 *.tar.gz
 
 # Ignore large model file
-server/ml/model.pth
