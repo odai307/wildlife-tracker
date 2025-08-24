@@ -143,7 +143,7 @@ const ImageUpload = () => {
     
     console.log('Uploading file:', file.name, file.type, file.size);
     
-    const res = await axios.post('http://localhost:3000/api/upload', formData, {
+    const res = await axios.post('https://wildlife-tracker-a35j.onrender.com/api/upload', formData, {
       headers: {
         'Content-Type': 'multipart/form-data',
       },
